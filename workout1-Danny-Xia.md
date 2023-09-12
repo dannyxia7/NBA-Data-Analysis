@@ -59,6 +59,7 @@ ggplot(team_pts, aes(x = reorder(team, 30:1), y = points)) +
 ```
 
 ![](NBA-Data-Analysis/blob/04aa6da6b6661df6fa4fae466183bf97c8bb863a/barplot%20of%20avg%20salary-1.png)
+
 ``` r
 team_eff = arrange(teams, desc(efficiency))
 avg_eff = mean(teams$efficiency)
