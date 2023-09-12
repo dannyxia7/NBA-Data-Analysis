@@ -46,7 +46,7 @@ ggplot(team_sal, aes(x = reorder(team, 30:1), y = salary)) +
   labs(x = "Team", y = "Salary (in millions)", title = "NBA Teams Ranked by Total Salary")
 ```
 
-![](NBA-Data-Analysis/blob/ab3934ae0d5cf6b4e04b836c6200be3b5ce17311/barplot%20of%20Score-1.png)
+![](NBA-Data-Analysis/blob/8d4d9a39d0f09bb2d731bc300d1f6eca9c8a1c9f/barplot%20of%20Score-1.png)
 
 ``` r
 team_pts = arrange(teams, desc(points))
