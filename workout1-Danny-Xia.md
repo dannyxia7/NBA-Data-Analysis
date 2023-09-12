@@ -58,8 +58,7 @@ ggplot(team_pts, aes(x = reorder(team, 30:1), y = points)) +
   labs(x = "Team", y = "Points", title = "NBA Teams Ranked by Total Points")
 ```
 
-![](workout1-Danny-Xia_files/figure-markdown_github/barplot%20of%20total%20points-1.png)
-
+![](NBA-Data-Analysis/blob/b6460ddaad702180c553a413ec9b6093b50854df/barplot%20of%20avg%20salary-1.png)
 ``` r
 team_eff = arrange(teams, desc(efficiency))
 avg_eff = mean(teams$efficiency)
@@ -70,7 +69,7 @@ ggplot(team_eff, aes(x = reorder(team, 30:1), y = efficiency)) +
   labs(x = "Team", y = "Efficiency", title = "NBA Teams Ranked by Total Efficiency")
 ```
 
-![](workout1-Danny-Xia_files/figure-markdown_github/barplot%20of%20efficiency-1.png)
+![](NBA-Data-Analysis/blob/b6460ddaad702180c553a413ec9b6093b50854df/barplot%20of%20efficiency-1.png)
 
 ``` r
 team_score = 
@@ -85,7 +84,7 @@ ggplot(team_score, aes(x = reorder(team, 30:1), y = score)) +
   labs(x = "Team", y = "Score", title = "NBA Teams Ranked by Score")
 ```
 
-![](workout1-Danny-Xia_files/figure-markdown_github/barplot%20of%20Score-1.png)
+![](NBA-Data-Analysis/blob/b6460ddaad702180c553a413ec9b6093b50854df/barplot%20of%20total%20points-1.png)
 
 -   The statistic that I have come up with, named Score, is
     1.5 \* *p**o**i**n**t**s*3 + *p**o**i**n**t**s*2 + *p**o**i**n**t**s*1 + 1.5 \* *a**s**s**i**s**t**s* + *s**a**l**a**r**y* − *t**u**r**n**o**v**e**r**s*
